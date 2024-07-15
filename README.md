@@ -33,7 +33,7 @@ Run the script with the path to your PowerPoint file as an argument:
     ```sh
     python pptx_2_docx.py example.pptx
     ```
-
+    
 This command will generate `example.docx` and `example.rtf` in the same directory as your input file.
 
 ## Script Explanation
