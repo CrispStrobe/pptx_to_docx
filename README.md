@@ -13,26 +13,24 @@ This script extracts text from a PowerPoint (.pptx) file and saves it as both a 
 
 1. Clone the repository or download the `pptx_2_docx.py` script.
 2. Install the required Python packages:
-
     ```sh
     pip install python-pptx python-docx pypandoc
     ```
-
 3. Install Pandoc, if not already installed. You can download it from the [Pandoc official site](https://pandoc.org/installing.html).
 
 ## Usage
 
 Run the script with the path to your PowerPoint file as an argument:
 
-    ```sh
-    python pptx_2_docx.py <input_pptx_file>
-    ```
+```sh
+python pptx_2_docx.py <input_pptx_file>
+```
 
 ### Example
 
-    ```sh
-    python pptx_2_docx.py example.pptx
-    ```
+```sh
+python pptx_2_docx.py example.pptx
+```
     
 This command will generate `example.docx` and `example.rtf` in the same directory as your input file.
 
